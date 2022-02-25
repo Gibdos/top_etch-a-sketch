@@ -21,8 +21,8 @@ etcher.forEach((e) => {
 
 function startGame() {
 	let tileNumerRounded = Math.floor(tileNumber.value);
-	if (tileNumerRounded < 1 || tileNumerRounded > 50) {
-		alert("The number of tiles must be between 1 and 50!");
+	if (tileNumerRounded < 1 || tileNumerRounded > 100) {
+		alert("The number of tiles must be between 1 and 100!");
 	} else {
 		document.documentElement.style.setProperty(
 			`--tileNumber`,
