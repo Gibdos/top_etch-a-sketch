@@ -14,9 +14,7 @@ const etcher = document.querySelectorAll(".playfield");
 etcher.forEach((e) => {
 	e.addEventListener("mouseover", () => {
 		let currentOpacity = parseFloat(e.getAttribute("style").slice(-5, -2));
-		console.log(currentOpacity);
 		let newOpacity = currentOpacity + 0.1;
-		console.log(newOpacity);
 		e.style.backgroundColor = "rgba(0, 0, 0, " + newOpacity + ")";
 	});
 });
@@ -37,9 +35,7 @@ function startGame() {
 		etcher.forEach((e) => {
 			e.addEventListener("mouseover", () => {
 				let currentOpacity = parseFloat(e.getAttribute("style").slice(-5, -2));
-				console.log(currentOpacity);
 				let newOpacity = currentOpacity + 0.1;
-				console.log(newOpacity);
 				e.style.backgroundColor = "rgba(0, 0, 0, " + newOpacity + ")";
 			});
 		});
