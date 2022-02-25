@@ -20,15 +20,16 @@ etcher.forEach((e) => {
 });
 
 function startGame() {
-	if (tileNumber.value < 1 || tileNumber.value > 50) {
+	let tileNumerRounded = Math.floor(tileNumber.value);
+	if (tileNumerRounded < 1 || tileNumerRounded > 50) {
 		alert("The number of tiles must be between 1 and 50!");
 	} else {
 		document.documentElement.style.setProperty(
 			`--tileNumber`,
-			tileNumber.value
+			tileNumerRounded
 		);
 		container.innerHTML = "";
-		for (i = 0; i < tileNumber.value * tileNumber.value; i++) {
+		for (i = 0; i < tileNumerRounded * tileNumerRounded; i++) {
 			container.appendChild(newDiv.cloneNode(true));
 		}
 		const etcher = document.querySelectorAll(".playfield");
