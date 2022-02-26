@@ -7,12 +7,11 @@ Based on the "The Odin Project" Foundation curriculum found [here](https://www.t
 
 ## Features
 
-- [x] Best of 5
-- [x] Shows player & computer Score
-- [x] Shows outcome of each round
-- [x] Responsive Layout
-- [x] Game Over Screen
-- [ ] Choose between **Best of 5** or **First to 5**
+- [x] Basic UI
+- [x] Slowly increases the bgColor opacity by 10% each mouseover
+- [x] Choose your tile number from 1 - 100
+- [ ] Responsive Layout
+- [ ] Options screen with choice between onHover and onMouseClick
 
 ## Image
 
