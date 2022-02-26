@@ -10,6 +10,7 @@ Based on the "The Odin Project" Foundation curriculum found [here](https://www.t
 - [x] Basic UI
 - [x] Slowly increases the bgColor opacity by 10% each mouseover
 - [x] Choose your tile number from 1 - 100
+- [ ] RGB / Rainbow Mode
 - [ ] Responsive Layout
 - [ ] Options screen with choice between onHover and onMouseClick
 
